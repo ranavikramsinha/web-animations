@@ -1,0 +1,75 @@
+body{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    
+    /* background-color: #008000; */
+    /* background-image: linear-gradient(green, red); */
+    background-color: #ffd700;
+
+    /* transition-property: transform;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out; */
+
+    /* transition: transform 2s 1s ease-in-out; */
+
+    /* transition-property: transform, background-color;
+    transition-duration: 2s, 0.5s; */
+
+    /* transition-property: all;
+    transition-duration: 2s; */
+
+    /* transition: transform 2s ease-in-out, background-color 1s; */
+    
+    /* transition: all 2s 1s ease-in-out; */
+
+    /* transition: transform 0.3s ease-in-out, background-color 0.3s; */
+
+    /* transition: all 2s;
+    transition-behavior: allow-discrete; */
+
+    /* transition: display 2s allow-discrete, opacity 0.5s, transform 0.5s; */
+    /* @starting-style{
+        opacity: 0;
+    } */
+
+    transition: background-color 1s;
+    @starting-style{
+        background-color: skyblue;
+    }
+}
+
+/* @starting-style{
+    .square{
+        opacity: 0;
+        transform: scale(0);
+    }
+} */
+
+/* .square:hover{
+    transform: rotate(45deg);
+    background-color: #87ceeb;
+} */
+
+/* .square:hover{
+    background-color: #9acd32;
+} */
+
+/* .square:hover{
+    background-image: linear-gradient(skyblue, violet);
+    transform: translateX(300px);
+} */
+
+/* .square.hide{
+    display: none;
+    opacity: 0;
+} */
+
+.square.blue{
+    background-color: blue;
+}
