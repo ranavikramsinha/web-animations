@@ -9,7 +9,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: #ffd700;
-  animation: 2s ease-in-out 1 alternate move;
+  animation: 2s ease-in-out 3 alternate move;
   /* animation-play-state: paused; */
   animation-direction: alternate;
   animation-fill-mode: both;
@@ -22,21 +22,21 @@ body {
     transform: translateX(0);
   }
 
-  25% {
+  /* 25% {
     background-color: #ff0000;
     animation-composition: replace;
   }
 
   50% {
     transform: translateX(100px);
-  }
+  } */
 
-  50% {
-    background-color: #008000;
+  /* 50% { */
+    /* background-color: #008000; */
     /* !importand ignore the property */
     /* background-color: green !important; */
-    animation-composition: replace;
-  }
+    /* animation-composition: replace; */
+  /* } */
 
   100% {
     transform: translateX(calc(100vw - 156px));
